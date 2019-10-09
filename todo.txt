@@ -1,0 +1,17 @@
+npm install -g tslint prettier eslint
+
+// Install Coc
+curl --fail -L https://github.com/neoclide/coc.nvim/archive/release.tar.gz|tar xzfv -
+:CocInstall coc-eslint coc-prettier coc-json coc-tsserver coc-tslint-plugin
+
+//GitGutter
+vim -u NONE -c "helptags vim-gitgutter/doc" -c q
+
+https://github.com/mattn/emmet-vim.git
+https://github.com/itchyny/lightline.vim.git
+https://github.com/airblade/vim-gitgutter.git
+https://github.com/editorconfig/editorconfig-vim.git
+https://github.com/scrooloose/nerdtree.git
+https://github.com/sheerun/vim-polyglot.git
+
+
