@@ -30,15 +30,18 @@ vim -c 'CocInstall -sync coc-eslint coc-prettier coc-json coc-tsserver coc-tslin
 
 ```
 
-//GitGutter
+## GitGutter
+```
 vim -u NONE -c "helptags vim-gitgutter/doc" -c q
+```
 
+### Plugins
+
+```
 https://github.com/mattn/emmet-vim.git
 https://github.com/itchyny/lightline.vim.git
 https://github.com/airblade/vim-gitgutter.git
 https://github.com/editorconfig/editorconfig-vim.git
 https://github.com/scrooloose/nerdtree.git
 https://github.com/sheerun/vim-polyglot.git
-
-
-
+```
