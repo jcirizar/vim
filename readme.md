@@ -6,8 +6,8 @@ git clone --recursive https://github.com/jcirizar/vim.git
 ## Symlink
 
 ```
-ln -sf reponame ~/.vim
-ln -sf reponame/vimrc ~/.vimrc
+ln -sf vim ~/.vim
+ln -sf vim/vimrc ~/.vimrc
 ```
 
 ## Generate help tags
