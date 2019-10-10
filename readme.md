@@ -35,6 +35,11 @@ vim -c 'CocInstall -sync coc-eslint coc-prettier coc-json coc-tsserver coc-tslin
 vim -u NONE -c "helptags vim-gitgutter/doc" -c q
 ```
 
+
+## Docker
+alias dvim="docker run -it -v `pwd`:/app --rm jcirizar/vim:latest"
+alias dbash="docker run -it -v `pwd`:/app --rm jcirizar/vim:latest bash"
+
 ### Plugins
 
 ```
