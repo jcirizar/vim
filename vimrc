@@ -8,6 +8,10 @@ endif
 set autoread
 au CursorHold * checktime
 
+
+" Remove status since we have lightline plugin for it
+set noshowmode
+
 " Don't try to be vi compatible
 set nocompatible
 
