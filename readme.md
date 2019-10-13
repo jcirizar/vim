@@ -39,7 +39,6 @@ vim -c 'CocInstall -sync coc-eslint coc-prettier coc-json coc-tsserver coc-tslin
 
 ### Plugins been used
 
-- https://github.com/mattn/emmet-vim.git
 - https://github.com/itchyny/lightline.vim.git
 - https://github.com/airblade/vim-gitgutter.git
 - https://github.com/editorconfig/editorconfig-vim.git

@@ -1,6 +1,3 @@
-[submodule "pack/plugins/start/emmet"]
-	path = pack/plugins/start/emmet
-	url = https://github.com/mattn/emmet-vim.git
 [submodule "pack/plugins/start/lightline"]
 	path = pack/plugins/start/lightline
 	url = https://github.com/itchyny/lightline.vim.git
