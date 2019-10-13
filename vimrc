@@ -19,6 +19,8 @@ set nocompatible
 filetype off
 
 " Turn on syntax highlighting
+colo pablo
+set background=dark
 syntax on
 
 " For plugins to load correctly
