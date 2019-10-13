@@ -8,6 +8,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
 RUN git clone --recursive https://github.com/jcirizar/vim.git \
     && ln -sf vim ~/.vim \
     && ln -sf vim/vimrc ~/.vimrc
+RUN vim -u NONE -c "helptags vim-gitgutter/doc" -c q
 RUN npm install -g tslint prettier eslint typescript nodemon
 RUN cd ~/.vim/pack/plugins/start \ 
     && curl --fail -L https://github.com/neoclide/coc.nvim/archive/release.tar.gz|tar xzfv -

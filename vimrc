@@ -95,3 +95,4 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " Nerdtree
 map <C-a> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
