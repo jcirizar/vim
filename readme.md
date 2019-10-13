@@ -42,6 +42,5 @@ vim -c 'CocInstall -sync coc-eslint coc-prettier coc-json coc-tsserver coc-tslin
 - https://github.com/itchyny/lightline.vim.git
 - https://github.com/airblade/vim-gitgutter.git
 - https://github.com/editorconfig/editorconfig-vim.git
-- https://github.com/scrooloose/nerdtree.git
 - https://github.com/sheerun/vim-polyglot.git
 - https://github.com/neoclide/coc.nvim
