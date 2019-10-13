@@ -2,7 +2,7 @@ FROM node:alpine
 WORKDIR /root
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache vim bash git openssh
+    apk add --no-cache vim bash git openssh curl
 
 RUN git clone --recursive https://github.com/jcirizar/vim.git \
     && ln -sf vim ~/.vim \
