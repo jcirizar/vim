@@ -13,3 +13,6 @@
 [submodule "pack/plugins/start/numbers.vim"]
 	path = pack/plugins/start/numbers.vim
 	url = https://github.com/myusuf3/numbers.vim
+[submodule "pack/plugins/start/vim-easymotion"]
+	path = pack/plugins/start/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion
