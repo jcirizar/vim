@@ -22,25 +22,10 @@ ln -sf vim/vimrc ~/.vimrc
 ```
 
 
-## Install coc.nvim
+## Install npm packages required by coc plugins
 
 ```
-npm install -g tslint prettier eslint typescript nodemon
-
-brew install yarn
-
-cd pack/plugins/start
-
-curl --fail -L https://github.com/neoclide/coc.nvim/archive/release.tar.gz|tar xzfv -
-
-vim -c 'CocInstall -sync coc-eslint coc-prettier coc-json coc-tsserver coc-tslint-plugin coc-html|q'
+npm install -g eslint prettier typescript
+vim -c 'CocInstall -sync coc-eslint coc-prettier coc-json coc-tsserver|q'
 ```
 
-
-### Plugins been used
-
-- https://github.com/itchyny/lightline.vim.git
-- https://github.com/airblade/vim-gitgutter.git
-- https://github.com/editorconfig/editorconfig-vim.git
-- https://github.com/sheerun/vim-polyglot.git
-- https://github.com/neoclide/coc.nvim
