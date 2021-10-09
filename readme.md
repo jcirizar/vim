@@ -14,6 +14,11 @@ alias dbash="docker run -it -v `pwd`:/app --rm jcirizar/vim:latest bash"
 git clone --recursive https://github.com/jcirizar/vim.git
 ```
 
+## Updates submodules (remember to commit later)
+```
+git submodule update --remote --merge
+```
+
 ## Symlink
 
 ```
