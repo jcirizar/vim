@@ -18,6 +18,11 @@ set nocompatible
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
 
+" Lightline Plugin ColorScheme
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }
+
 " Turn on syntax highlighting
 colo pablo
 set background=dark

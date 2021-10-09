@@ -20,3 +20,6 @@
 	path = pack/plugins/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
 	branch = release
+[submodule "pack/plugins/start/lightline-bufferline"]
+	path = pack/plugins/start/lightline-bufferline
+	url = https://github.com/mengelbrecht/lightline-bufferline
