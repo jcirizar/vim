@@ -107,9 +107,15 @@ set incsearch
 set ignorecase
 set smartcase
 set showmatch
-map <leader><space> :let @/=''<cr>
+" map <leader><space> :let @/=''<cr>
+nnoremap <leader><space> :noh<cr>
 
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" Windows remap
+nnoremap <Leader>w <C-w>w
+nnoremap <Leader>j <C-w>s
+nnoremap <Leader>l <C-w>v
