@@ -61,7 +61,7 @@ set number
 set ruler
 
 " Blink cursor on error instead of beeping (grr)
-set visualbell
+" set visualbell
 
 " Encoding
 set encoding=utf-8
@@ -119,3 +119,5 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <Leader>w <C-w>w
 nnoremap <Leader>j <C-w>s
 nnoremap <Leader>l <C-w>v
+nnoremap <Leader>; :bn<cr>
+nnoremap <Leader>q :bd<cr>
