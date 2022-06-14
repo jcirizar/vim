@@ -17,3 +17,10 @@ git submodule update --remote --merge
 ln -sf vim ~/.vim
 ln -sf vim/vimrc ~/.vimrc
 ```
+
+#extra: zsh aliases
+```
+ln -sf vim/aliases ~/.aliases
+#inside .zshrc
+source $HOME/.aliases
+```

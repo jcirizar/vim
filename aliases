@@ -1,0 +1,5 @@
+alias drun='docker run -it -v `pwd`:/app -w /app --rm'
+alias dnode='docker run -it -v `pwd`:/app -w /app --rm node:alpine node'
+alias dnpm='docker run -it -v `pwd`:/app -w /app --rm node:alpine npm'
+alias dnpx='docker run -it -v `pwd`:/app -w /app --rm node:alpine npx'
+alias cdk="npx aws-cdk"
