@@ -1,5 +1,18 @@
 alias drun='docker run -it -v `pwd`:/app -w /app --rm'
+alias dnodesh='docker run -it -v `pwd`:/app -w /app --rm node:alpine sh'
 alias dnode='docker run -it -v `pwd`:/app -w /app --rm node:alpine node'
 alias dnpm='docker run -it -v `pwd`:/app -w /app --rm node:alpine npm'
 alias dnpx='docker run -it -v `pwd`:/app -w /app --rm node:alpine npx'
 alias cdk="npx aws-cdk"
+alias sls="npx sls"
+function dddb() {
+  aws dynamodb scan --table-name $1 --output json > ~/docker/dynamodb/$1.json
+}
+
+function lddb() {
+  aws dynamodb batch-write-item --table-name $1 --request-items file://~/docker/dynamodb/$1.json --endpoint-url http://localhost:8000
+}
+
+alias slsstart="sls offline --stage ${SLS_STAGE:-'dev'} --region ${SLS_REGION:-'ca-central-1'}"
+alias slsdebug="node --inspect --trace-warnings ./node_modules/.bin/serverless offline --stage ${SLS_STAGE:-'dev'} --region ${SLS_REGION:-'ca-central-1'}"
+alias slslocal="node --inspect --trace-warnings ./node_modules/.bin/serverless offline local-authorizers --stage ${SLS_STAGE:-'dev'} --region ${SLS_REGION:-'ca-central-1'}"
